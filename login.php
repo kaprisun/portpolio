@@ -5,7 +5,7 @@
     $connect=mysql_connect( "localhost", "teamclick", "click1234") or  
         die( "SQL server에 연결할 수 없습니다.");
  
-
+//jjj
     mysql_query("SET NAMES UTF8");
    // 데이터베이스 선택 dd
    mysql_select_db("teamclick",$connect);

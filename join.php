@@ -2,11 +2,10 @@
  $user_id = $_POST["user_id"];
  $pw = $_POST["pw"];
 $age=$_POST["age"];
-    // 데이터베이스 접속 문자열. (db위치, 유저 이름, 비밀번호)
+    // 데이터베이스 접속 문자열. (db위치, 유저 이름, 비밀번호)--
     $connect=mysql_connect( "localhost", "teamclick", "click1234") or  
         die( "SQL server에 연결할 수 없습니다.");
- 
-    
+
     mysql_query("SET NAMES UTF8");
    // 데이터베이스 선택
    mysql_select_db("teamclick",$connect);
